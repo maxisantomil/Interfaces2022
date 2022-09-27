@@ -1,11 +1,65 @@
-.nav{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav {
     background-color: #311D39;
     height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.logo{
-    
+/*Diseño del logo*/
+
+.logo {
+    padding-left: 5px;
+    padding-right: 120px;
 }
-.logo img{
+.logo img {
     inline-size:7vh
+}
+
+/*Diseño de las categorias */
+
+.categorias {
+    flex-direction: column;
+
+}
+
+.categorias li{
+
+    align-items: center;
+  
+    color: #EDE6CE;
+    padding-right: 73px;
+    display: inline-flex;
+}
+
+/*buscador*/
+
+.buscador {
+    padding-left: 150px;
+}
+
+.buscador input[type="search"]{
+    padding-top: -5px;
+    width: 200px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.estiloLupa{
+   background-color: transparent;
+   border-style: none;
+}
+
+.estiloLupa img{
+    width: 30px;
+    padding-left: 11px;
+    padding-top: 4px;
 }

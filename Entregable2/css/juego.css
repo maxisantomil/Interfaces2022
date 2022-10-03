@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav {
+    background-color: #311D39;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*Diseño del logo*/
+
+.logo {
+    padding-left: 5px;
+    padding-right: 120px;
+}
+.logo img {
+    inline-size:7vh
+}
+
+/*Diseño de las categorias */
+
+.categorias {
+    flex-direction: column;
+
+}
+
+.categorias li{
+
+    align-items: center;
+  
+    color: #EDE6CE;
+    padding-right: 73px;
+    display: inline-flex;
+}
+
+/*buscador*/
+
+.buscador {
+    padding-left: 20%;
+}
+
+.buscador input[type="search"]{
+    padding-top: -5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #EDE6CE;
+}
+
+.estiloLupa{
+   background-color: transparent;
+   border-style: none;
+}
+
+.estiloLupa img{
+    width: 30px;
+    padding-left: 11px;
+    padding-top: 4px;
+}
+
+/*Breadcrumbs*/
+.container-breadcrumbs{
+    height: 164px;
+    display:flex;
+    align-items: center;
+    background-color: #67434F;
+}
+
+.container-breadcrumbs-text{
+    padding-left: 34px;
+}
+
+.container-breadcrumbs-text h2{
+    font-size: 24px;
+    color: #EDE6CE;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+/*Plataforma de Juegos*/
+
+.container-juego{
+    background-color: #311D39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 60vw;
+}
+
+
+/*Botón Play*/
+
+.container-button-play{
+    width:105px;
+    height: 62px;
+    background-color: #578D37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.container-button-play p{
+    color: #EDE6CE;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/*Barra Juego*/
+
+.container-barra-juego{
+    height: 5vh;
+    background-color: #EDE6CE;
+    color:#0D0112;
+    width: 60vw;
+}
